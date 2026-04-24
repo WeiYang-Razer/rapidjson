@@ -1,0 +1,23 @@
+{
+  "name": "rapidjson",
+  "version": "1.1.0.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of rapidjson",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DRAPIDJSON_BUILD_TESTS=OFF",
+      "-DRAPIDJSON_BUILD_EXAMPLES=OFF",
+      "-DRAPIDJSON_BUILD_DOC=OFF"
+    ],
+    "installDir": "install"
+  }
+}
