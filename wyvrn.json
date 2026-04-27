@@ -1,10 +1,19 @@
 {
   "name": "rapidjson",
-  "version": "1.1.0.1",
+  "version": "1.1.0.2",
   "schemaVersion": 2,
   "kind": "HeaderOnlyLib",
   "description": "TODO: one-line description of rapidjson",
   "dependencies": {},
+  
+  "compatibility": {
+    "compiler":         "exact",
+    "arch":             "any",
+    "compiler.version": "any",
+    "compiler.cppstd":  "lte",
+    "compiler.runtime": "any"
+  },
+
   "build": {
     "system": "cmake",
     "configs": [
