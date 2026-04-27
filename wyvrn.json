@@ -1,6 +1,6 @@
 {
   "name": "rapidjson",
-  "version": "1.1.0.0",
+  "version": "1.1.0.1",
   "schemaVersion": 2,
   "kind": "HeaderOnlyLib",
   "description": "TODO: one-line description of rapidjson",
